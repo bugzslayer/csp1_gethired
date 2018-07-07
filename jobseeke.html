@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<title>GetHired</title>
+
+	<!-- Font -->	
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow" rel="stylesheet">	
+
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+	<!-- Loads Favicon.ico -->
+	<link rel="icon" type="image/x-icon" href="./favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+
+	<!-- Import Bootstrap Stylesheet -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	
+	<!-- Import custom stylesheet -->
+	<link rel="stylesheet" type= "text/css" href="./assets/css/style.css">
+
+</head>
+<body>
+
+	<!-- Nav Bar -->
+
+	<nav class="navbar navbar-light bg-primary fixed-top mob-not-fixed">
+		<a class="navbar-brand text-light mobOrient"><img class="card-img" src="assets/img/logo/gethired-full.png"></a>
+		<ul class="nav justify-content-end">
+			<li class="nav-item">
+				<a class="nav-link text-light font-weight-bold" href="index.html">Jobseeker</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-light font-weight-bold" href="employer.html">Employer</a>
+			</li>		
+		</ul>
+	</nav>
+
+	<!-- Registration Form Personal Information-->
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="card main">
+			<div class="card-header"><h3>Personal Information</h3></div>
+			<div class="card-body">
+					<div class="form-row">
+						<div class="form-group col-md-4 mt-2">
+							<label for="FName">First Name</label>
+							<input type="text" class="form-control" id="FirstName" placeholder="First Name">
+						</div>
+						<div class="form-group col-md-4 mt-2">
+							<label for="MName">Middle Name</label>
+							<input type="text" class="form-control" id="MiddleName" placeholder="Middle Name">
+						</div>
+						<div class="form-group col-md-4 mt-2">
+							<label for="LName">Last Name</label>
+							<input type="text" class="form-control" id="LastName" placeholder="Last Name">
+						</div>
+					</div>
+				</div> 
+			</div>
+		</div>	
+		<div class="card-body">	
+			<form>
+				<div class="form-group">
+					<label for="inputAddress">Present Address</label>
+					<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputCity">City</label>
+							<input type="text" class="form-control" id="inputCity">
+						</div>
+						<div class="form-group col-md-4">
+							<label for="inputState">State</label>
+							<select id="inputState" class="form-control">
+								<option selected>Choose...</option>
+								<option>...</option>
+							</select>
+						</div>
+						<div class="form-group col-md-2">
+							<label for="inputZip">Zip</label>
+							<input type="text" class="form-control" id="inputZip">
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>			
+		<div class="card-body">
+			<form>
+				<div class="form-group">
+					<label for="inputAddress2">Permanent Address</label>
+					<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+				</div>
+				<div class="form-row">
+					<div class="form-group col-md-6">
+						<label for="inputCity">City</label>
+						<input type="text" class="form-control" id="inputCity">
+					</div>
+					<div class="form-group col-md-4">
+						<label for="inputState">State</label>
+						<select id="inputState" class="form-control">
+							<option selected>Choose...</option>
+							<option>...</option>
+						</select>
+					</div>
+					<div class="form-group col-md-2">
+						<label for="inputZip">Zip</label>
+						<input type="text" class="form-control" id="inputZip">
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="card-body">
+			<form>		
+				<div class="form-row">
+					<div class="form-group col-md-4">
+						<label for="inputdob">Date of Birth</label>
+						<input type="text" class="form-control" id="inputdob" placeholder="mm/dd/yyyy">
+					</div>
+					<div class="form-group col-md-2">
+						<label for="inputstatus">Marital Status</label>
+						<input type="text" class="form-control" id="inputstatus" placeholder="Civil Status">
+					</div>
+					<div class="form-group col-md-2">
+						<label for="inputbirthplace">Place of Birth</label>
+						<input type="text" class="form-control" id="inputbirthplace" placeholder="Birthplace">
+					</div>
+				</div>
+			</form>
+		</div>		
+		<div class="card-body">
+			<form>
+				<div class="form-row">
+					<div class="form-group col-md-4">
+						<label for="MobileNumber">Mobile Number</label>
+						<input type="text" class="form-control" id="MobileNumber" placeholder="+63-000-000-0000">
+					</div>
+					<div class="form-group col-md-4">
+						<label for="ResNumber">Phone Number</label>
+						<input type="text" class="form-control" id="ResNumber" placeholder="+63-000-0000">
+					</div>
+					<div class="form-group col-md-4">
+						<label for="inputEmail4">Email Address</label>
+						<input type="Email" class="form-control" id="inputEmail4" placeholder="Email">
+					</div>
+				</div>
+			</form>
+			<div class="minifooter">
+				<ul>
+					<li>
+						<a href="#"><i class="far fa-edit"></i>
+					</li></a>
+					<li><a href="#"><i class="far fa-save"></i>
+					</li></a>
+					<li><a href="#"><i class="fas fa-plus"></i>
+					</li></a>
+					<li><a href="#"><i class="fas fa-trash"></i>
+					</li></a>
+				</ul>
+			</div>	
+		</div>	
+	</div>	
+</div>
+
+	<div class="container-fluid">
+		<div>
+			<div class="card edmain">
+				<div class="card-header"><h3>Educational Background</h3></div>
+				<div class="card-body">
+					<div class="form-row">
+						<div class="form-group col-md-3 mt-2">
+							<label for="SchName">Tertiary</label>
+							<input type="text" class="form-control" id="SchName" placeholder="Name of School">
+						</div>
+						<div class="form-group col-md-3 mt-2">
+							<label for="locName">Location</label>
+							<input type="text" class="form-control" id="locName" placeholder="Location">
+						</div>
+						<div class="form-group col-md-2 mt-2">
+							<label for="YearsName">Years Attended</label>
+							<input type="text" class="form-control" id="YearsName" placeholder="From and To">
+						</div>
+						<div class="form-group col-md-2 mt-2">
+							<label for="CourseName">Degree</label>
+							<input type="text" class="form-control" id="CourseName" placeholder="Course">
+						</div>
+						<div class="form-group col-md-2 mt-2">
+							<label for="AwardName">Awards</label>
+							<input type="text" class="form-control" id="AwardName" placeholder="Awards Received">
+						</div>
+					</div>
+				</div>	
+				<div class="card-body">
+					<div class="form-row">
+						<div class="form-group col-md-4">
+							<label for="SchName">Secondary</label>
+							<input type="text" class="form-control" id="SchName" placeholder="Name of School">
+						</div>
+						<div class="form-group col-md-4">
+							<label for="locName">Location</label>
+							<input type="text" class="form-control" id="locName" placeholder="Location">
+						</div>
+						<div class="form-group col-md-4">
+							<label for="YearsName">Years Attended</label>
+							<input type="text" class="form-control" id="YearsName" placeholder="From and To">
+						</div>
+					</div>
+				</div> 
+				<div class="card-body">
+					<div class="form-row">
+						<div class="form-group col-md-4">
+							<label for="SchName">Elementary</label>
+							<input type="text" class="form-control" id="SchName" placeholder="Name of School">
+						</div>
+						<div class="form-group col-md-4">
+							<label for="locName">Location</label>
+							<input type="text" class="form-control" id="locName" placeholder="Location">
+						</div>
+						<div class="form-group col-md-4">
+							<label for="YearsName">Years Attended</label>
+							<input type="text" class="form-control" id="YearsName" placeholder="From and To">
+						</div>
+					</div>
+				</div> 
+				<div class="card-body">
+					<div class="form-row">
+						<div class="form-group col-md-4">
+							<label for="OthersName">Others</label>
+							<input type="text" class="form-control" id="OthersName" placeholder="Other Training or Certifications">
+						</div>
+						<div class="form-group col-md-4">
+							<label for="LicenseName">License</label>
+							<input type="text" class="form-control" id="locName" placeholder="License Number">
+						</div>
+					</div>
+					<div class="minifooter">
+						<ul>
+							<li><a href="#"><i class="far fa-edit"></i></li></a>
+							<li><a href="#"><i class="far fa-save"></i></li></a>
+							<li><a href="#"><i class="fas fa-plus"></i></li></a>
+							<li><a href="#"><i class="fas fa-trash"></i></li></a>
+						</ul>
+					</div>	
+				</div> 
+			</div>
+		</div>	
+	</div>			
+
+	<div class="container-fluid">
+		<div>
+			<div class="card empmain">
+				<div class="card-header"><h3>Employment Background</h3></div>
+				<div class="card-body">
+					<div class="form-row">
+						<div class="form-group col-md-3 mt-2">
+							<label for="EmplyrName">Employer</label>
+							<input type="text" class="form-control" id="EmplyrName" placeholder="Company Name">
+						</div>
+						<div class="form-group col-md-3 mt-2">
+							<label for="AddEmplyrName">Company Address</label>
+							<input type="text" class="form-control" id="AddEmplyrName" placeholder="Company Address">
+						</div>
+						<div class="form-group col-md-3 mt-2">
+							<label for="AddEmplyrContact">Company Number</label>
+							<input type="text" class="form-control" id="AddEmplyrContact" placeholder="Phone Number">
+						</div>
+
+						<div class="form-group col-md-3 mt-2">
+							<label for="PostName">Position</label>
+							<input type="text" class="form-control" id="locName" placeholder="Position Title">
+						</div>
+
+						<div class="form-group col-md-2 mt-2">
+							<label for="PostLvl">Position Level</label>
+							<input type="text" class="form-control" id="PostLvl" placeholder="Position Level">
+						</div>
+
+						<div class="form-group col-md-3 mt-2">
+							<label for="SpclName">Specialization</label>
+							<input type="text" class="form-control" id="SpclName" placeholder="Specialization">
+						</div>
+
+						<div class="form-group col-md-3 mt-2">
+							<label for="RoleName">Role</label>
+							<input type="text" class="form-control" id="RoleName" placeholder="Role">
+						</div>
+						
+						<div class="form-group col-md-2 mt-2">
+							<label for="IndustryName">Industry</label>
+							<input type="text" class="form-control" id="IndustryName" placeholder="Industry">
+						</div>
+						
+						<div class="form-group col-md-2 mt-2">
+							<label for="MoSal">Monthly Salary</label>
+							<input type="text" class="form-control" id="MoSal" placeholder="Monthly Salary">
+						</div>
+
+						<div class="form-group col-md-3 mt-2">
+							<label for="EmpPeriod">Employment Period</label>
+							<input type="text" class="form-control" id="EmpPeriod" placeholder="Joined Duration">
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" id="gridCheck">
+								<label class="form-check-label" for="gridCheck">
+									Present
+								</label>
+							</div>
+						</div>
+
+						<div class="form-group col-md-5 mt-2">
+							<label for="inputReason">Reason for Leaving</label>
+							<input type="text" class="form-control" id="inputReason" placeholder="Comment">
+						</div>
+						
+						<div class="card col-md-4 ">
+							<div class="card-body">
+								May we contact your previous supervisor for a reference? 
+								<div class="form-check">
+									<div>
+										<input class="form-check-input" type="checkbox" id="gridCheck">
+										<label class="form-check-label" for="gridCheck">
+											Yes
+										</label>
+									</div>
+									<div>
+										<input class="form-check-input" type="checkbox" id="gridCheck">
+										<label class="form-check-label" for="gridCheck">
+											No
+										</label>
+									</div>
+								</div>	
+							</div>
+						</div>
+
+						<div class="form-group col-md-12">
+							<label for="comment">Job Description:</label>
+							<textarea class="form-control" rows="5" id="comment"></textarea>
+						</div>
+
+						<div class="form-group col-md-12">
+							<label for="comment">Job Responsibilities:</label>
+							<textarea class="form-control" rows="5" id="comment"></textarea>
+						</div>
+					</div>
+					<div class="minifooter">
+						<ul>
+							<li><a href="#"><i class="far fa-edit"></i></li></a>
+							<li><a href="#"><i class="far fa-save"></i></li></a>
+							<li><a href="#"><i class="fas fa-plus"></i></li></a>
+							<li><a href="#"><i class="fas fa-trash"></i></li></a>
+						</ul>
+					</div>	
+				</div>	
+			</div>				
+		</div>						
+	</div>						
+
+	<div class="container-fluid">
+		<div>
+			<div class="card empskills">
+				<div class="card-header"><h3>Skills</h3></div>
+				<div class="card-body">
+					<div class="form-row">
+						<div class="form-group col-md-12">
+							<label for="comment">Intermediate:</label>
+							<textarea class="form-control" rows="2" id="Skills"></textarea>
+						</div>
+					</div>	
+				</div>	
+				<div class="card-body">
+					<div class="form-row">
+						<div class="form-group col-md-12">
+							<label for="comment">Advance:</label>
+							<textarea class="form-control" rows="2" id="Skills"></textarea>
+						</div>
+					</div>			
+					<div class="minifooter">
+						<ul>
+							<li><a href="#"><i class="far fa-edit"></i></li></a>
+							<li><a href="#"><i class="far fa-save"></i></li></a>
+							<li><a href="#"><i class="fas fa-plus"></i></li></a>
+							<li><a href="#"><i class="fas fa-trash"></i></li></a>
+						</ul>
+					</div>	
+				</div>
+			</div>			
+		</div>	
+	</div>	
+
+	<div class="container-fluid">
+		<div>
+			<div class="card emplang">
+				<div class="card-header"><h3>Language</h3></div>
+				<div class="card-body">
+					<div class="form-row">
+						<div class="form-group col-md-12">
+							<label for="comment">Intermediate:</label>
+							<textarea class="form-control" rows="3" id="Language Used"></textarea>
+						</div>
+					</div>	
+				</div>	
+				<div class="card-body">
+					<div class="form-row">
+						<div class="form-group col-md-12">
+							<label for="comment">Advance:</label>
+							<textarea class="form-control" rows="3" id="Language Used"></textarea>
+						</div>
+					</div>			
+					<div class="minifooter">
+						<ul>
+							<li><a href="#"><i class="far fa-edit"></i></li></a>
+							<li><a href="#"><i class="far fa-save"></i></li></a>
+							<li><a href="#"><i class="fas fa-plus"></i></li></a>
+							<li><a href="#"><i class="fas fa-trash"></i></li></a>
+						</ul>
+					</div>	
+				</div>			
+			</div>	
+		</div>	
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="card main">
+					<div class="card-header"><h3>References</h3></div>
+					<div class="card col-md-4 ">
+						<div class="card-body">
+							Please list at least three (3) professional references: 
+						</div>
+					</div>		
+					<div class="card-body">
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="RefName">Full Name</label>
+								<input type="text" class="form-control" id="RefName" placeholder="Complete Name">
+							</div>
+							<div class="form-group col-md-6">
+								<label for="CoName">Company Name</label>
+								<input type="text" class="form-control" id="CoName" placeholder="Company Name">
+							</div>
+							<div class="form-group col-md-12">
+								<label for="CoAdd">Company Address</label>
+								<input type="text" class="form-control" id="CoAdd" placeholder="Company Address">
+							</div>
+							<div class="form-group col-md-4">
+								<label for="CoRel">Relationship</label>
+								<input type="text" class="form-control" id="CoRel" placeholder="Relationship">
+							</div>
+							<div class="form-group col-md-4">
+								<label for="CoNum">Contact Number</label>
+								<input type="text" class="form-control" id="CoNum" placeholder="Contact Number">
+							</div>
+						</div>
+
+						<div class="form-row">
+							<div class="form-group col-md-6 mt-5">
+								<label for="RefName">Full Name</label>
+								<input type="text" class="form-control" id="RefName" placeholder="Complete Name">
+							</div>
+							<div class="form-group col-md-6 mt-5">
+								<label for="CoName">Company Name</label>
+								<input type="text" class="form-control" id="CoName" placeholder="Company Name">
+							</div>
+							<div class="form-group col-md-12">
+								<label for="CoAdd">Company Address</label>
+								<input type="text" class="form-control" id="CoAdd" placeholder="Company Address">
+							</div>
+							<div class="form-group col-md-4">
+								<label for="CoRel">Relationship</label>
+								<input type="text" class="form-control" id="CoRel" placeholder="Relationship">
+							</div>
+							<div class="form-group col-md-4">
+								<label for="CoNum">Contact Number</label>
+								<input type="text" class="form-control" id="CoNum" placeholder="Contact Number">
+							</div>
+						</div>
+
+						<div class="form-row">
+							<div class="form-group col-md-6 mt-5">
+								<label for="RefName">Full Name</label>
+								<input type="text" class="form-control" id="RefName" placeholder="Complete Name">
+							</div>
+							<div class="form-group col-md-6 mt-5">
+								<label for="CoName">Company Name</label>
+								<input type="text" class="form-control" id="CoName" placeholder="Company Name">
+							</div>
+							<div class="form-group col-md-12">
+								<label for="CoAdd">Company Address</label>
+								<input type="text" class="form-control" id="CoAdd" placeholder="Company Address">
+							</div>
+							<div class="form-group col-md-4">
+								<label for="CoRel">Relationship</label>
+								<input type="text" class="form-control" id="CoRel" placeholder="Relationship">
+							</div>
+							<div class="form-group col-md-4">
+								<label for="CoNum">Contact Number</label>
+								<input type="text" class="form-control" id="CoNum" placeholder="Contact Number">
+							</div>
+						</div>
+						<div class="minifooter">
+							<ul>
+								<li><a href="#"><i class="far fa-edit"></i></li></a>
+								<li><a href="#"><i class="far fa-save"></i></li></a>
+								<li><a href="#"><i class="fas fa-plus"></i></li></a>
+								<li><a href="#"><i class="fas fa-trash"></i></li></a>
+							</ul>
+						</div>	
+					</div>
+				</div>	
+			</div>
+			<button type="button" class="btn btn-primary mb-5" data-toggle="button" aria-pressed="false" autocomplete="off">
+				Submit
+			</button>
+
+		</div>	
+
+
+		<!-- Import Bootstrap scirpts -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>	
+
+		<!-- The Modal -->
+
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<!-- Modal Header -->
+					<div class="modal-header">
+						<h4 class="modal-title">Job Seeker Login</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+
+					<!-- Modal body -->
+					<div class="modal-body">
+						<form action="name="frmLogin" id="frmLogin">
+							<div class="form-group" id="head-login">
+								<input type="text" name="login_id" class="form-control" placeholder="Email or ID" id="login-email" maxlength="100">
+								<span class="help-block hide" id="login-id-error">Please provide your login ID</span>
+							</div>
+							<div class="clearfix"></div>
+							<div class="form-group" id="head-password">
+								<input type="password" name="password" class="form-control" id="login-password" placeholder="Password" autocomplete="off">
+								<span class="help-block hide" id="login-pass-error">Please provide your password</span>
+							</div>
+							<div class="clearfix"></div>
+							<div class="form-group">
+								<span><input class="place-holder" type="checkbox" name="remember" checked="" id="remember" value="on">Remember me &nbsp; </span>
+								<span class="pull-right login-btn-realign" id="remember-me"><a class="forgot-link place-holder pull-right" href="#" id="forgot-password-link">Forgot?</a></span>
+								<button class="btn btn-primary btn-block" type="submit" id="login_btn" name="btnSignIn"><strong>Log In</strong></button>
+								<div class="col-xs-12 text-center link-signup" id="signup_now">New User?&nbsp;<a class="link-align link-drop sign-up-drop" id="signup_btn" href="jobseeke.html" >Sign up! It's FREE</a></div>
+								<h6 class="text-muted text-center mt-3" id="text_tou">Terms of Use</a> and <a id="pp_url" href="#" target="_blank">Privacy Policy</a>.</h6>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>	
+		</div>		
+	</div>	
+
+	<!-- Import custom script -->
+	<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
+

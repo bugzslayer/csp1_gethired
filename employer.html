@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<title>GetHired</title>
+
+	<!-- Font -->	
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Serif" rel="stylesheet">	
+
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+	<!-- Loads Favicon.ico -->
+	<link rel="icon" type="image/x-icon" href="./favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+
+	<!-- Import Bootstrap Stylesheet -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	
+	<!-- Import custom stylesheet -->
+	<link rel="stylesheet" type= "text/css" href="./assets/css/style.css">
+
+</head>
+
+<body>	
+
+	<nav class="navbar navbar-light bg-primary fixed-top mob-not-fixed">
+		<a class="navbar-brand text-light mobOrient"><img class="card-img" src="assets/img/logo/gethired-full.png"></a>
+		<ul class="nav justify-content-end">
+			<li class="nav-item">
+				<a class="nav-link text-light font-weight-bold" href="index.html">Jobseeker</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-light font-weight-bold" href="employer.html">Employer</a>
+			</li>
+			
+		</ul>
+	</nav>
+
+<!-- 	<div class="container-fluid noLeft">
+		<div class="row showImage">
+			<div class="col-sm mt-5 mob-none">
+				<div class="card text-dark bord0">
+					<div class="homePg">	
+						<div class="col-xs-12 col-sm-12 col-md-4 realCenter">
+							<input type="text" class="form-control" id="ex1" placeholder="Search for a location or job title or a company">
+							<div class="col-xs-8 col-sm-8 col-md-4 realCenter">
+								<div class="input-group-btn">
+									<button class="btn btn-primary mb-0" type="submit">Search</button>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>		
+		</div>			
+	</div>				 -->
+
+
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="d-block w-100" src="./assets/img/emp25.jpg" alt="First slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="./assets/img/emp24.jpg" alt="Second slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="./assets/img/emp22.jpg" alt="Third slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="./assets/img/emp26.jpg" alt="Fourth slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="./assets/img/emp23.jpg" alt="Third slide">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+
+	<div class="container-fluid bg-info service">
+		<div class="row">
+			<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+				<img class="servicelogoimg" src="assets/img/logo/gethired.png" alt="logoservice">
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+				<h2 class="service1"> How GetHired Works</h2>
+			</div>
+		</div>
+		<div class="col-sm mt-5 border-right-0">
+			<div class="card-deck">
+				<div class="card bg-info">
+					<img class="card-img-top rounded-circle serviceimg" src="./assets/img/emp20.jpg"  alt="Card image cap">
+					<div class="card-body">
+						<h3 class="card-title">Create a Profile</h3>
+							<!-- <p class="card-text text-justify mt-3">
+								Recruitment is a major part of human resource management, including the necessary activities an organization undertakes to attract, source, assess and employ people. The activities that comprise recruitment also overlap, to some degree, with those that comprise staffing.<br>
+
+								<br>The impact of recruitment on organizational performance was noted in a survey conducted of 4 288 executives from 102 countries by the World Federation of People Management Association (WFPMA), which showed that organizations ranked in the top 20 % in terms of ability to deliver on recruiting experienced up to 3,5 times the revenue growth and as much as twice the average profit margin of other organizations.<br>
+
+								<br>This aims to help organizations focus and deliver on recruitment performance objectives by providing guidance on effective processes and procedures necessary for the recruitment of people.<br>
+								
+								<br>The Platform we generated complies with the rules of ISO-30405:2016, in which Provides guidance on how to attract, source, assess and recruit people. It focuses on key processes and practices, including:
+								<ul class="text-justify mr-2">
+									<li>Recruitment Policy Development;</li>
+									<li>The flow from the sourcing of potential applicants to the boarding of new recruits;</li>
+									<li>evaluation and measurement.</li>
+								</ul>
+							</p>
+						-->							<!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+					</div>
+				</div>
+				<div class="card bg-info">
+					<img class="card-img-top rounded-circle serviceimg" src="./assets/img/emp19.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h3 class="card-title">Apply and Search</h3>
+							<!-- <p class="card-text"><p class=MsoNormal ><b><span >Value
+							vs Spend</span></b></p>
+
+							<p class=MsoNormal ><span >Recruiting
+								fees are only one part of the equation. What about the value of sourcing and
+								headhunting passive candidates who are typically the top drawer A-player
+								candidates that employers otherwise do not have access to. This is precisely
+							where a skilled recruiter is worth their weight in gold.</span></p>
+
+							<p class=MsoNormal ><span >Speaking
+								in terms of pain based selling, many&nbsp;employers see huge&nbsp;value in
+								alleviating the pain they’re caused&nbsp;by unfilled key&nbsp;vacancies.They
+							simply&nbsp;can’t find the talent they need.&nbsp;</span></p>
+
+							<p class=MsoNormal ><span >Others
+								are relieved to have someone take on the heavy lifting that comes with
+							recruiting, and grateful to have the hiring actually getting done.</span></p>
+
+							<p class=MsoNormal ><b><span >What's
+							it all worth?&nbsp;</span></b></p>
+
+							<p class=MsoNormal ><span >This
+								chart shows the top 10 hardest to fill jobs of 2014 (according to Workopolis)
+								along with the cost to employers when left unfilled. Bang! These numbers are
+							pretty hard to ignore.</span></p>
+
+							<p class=MsoNormal style=><b><span >How
+							Much is the Cost of&nbsp;In-house Recruiting?</span></b></p>
+
+							<p class=MsoNormal style='line-height:normal;background:white;vertical-align:
+							baseline'><span >In&nbsp;terms
+								of time and effort, not to mention extended vacancies and crippling bad hire
+								decisions, the short and long term costs of&nbsp;keeping&nbsp;recruiting
+								inhouse is&nbsp;precisely why so many employers today are hiring&nbsp;recruiters
+								who can and will&nbsp;get the job done, on time and in most cases
+							cost-effectively.&nbsp;</span></p>
+
+							<p class=MsoNormal style='line-height:normal;background:white;vertical-align:
+							baseline'><span >The
+								average in-house recruitment cost of filling a vacancy, using internal or
+							external recruitment methods is reported by Monster.com to be around $9000 CDN.</span></p>
+
+							<p class=MsoNormal style='line-height:normal;background:white;vertical-align:
+							baseline'><span >Compare
+								that to the fees vs vacancy costs listed&nbsp;above&nbsp;for the critical hard
+								to fill vacancies. It’s not hard to see why more and more employers are seeing
+								the value of using external resources who are trained and highly experienced at
+							sourcing critical, hard to find skilled candidates.</span></p>
+
+							<p class=MsoNormal style=><b><span >The
+							Take Aways</span></b></p>
+
+							<p class=MsoNormal style='line-height:normal;background:white;vertical-align:
+							baseline'><span >The
+								important thing to remember about recruiters is that they aren't all created
+								equal. Some recruiters and executive search firms use more effective tools and
+							resources to source right fit passive candidates than others.</span></p>
+
+							<p class=MsoNormal style='line-height:normal;background:white;vertical-align:
+							baseline'><span >Good
+								recruiters invest far more time into tracking and building long term
+							‘know-like-trust’ relationships with passive A-Level talent.</span></p>
+
+							<p class=MsoNormal style='line-height:normal;background:white;vertical-align:
+							baseline'><span >Always
+								be up front with your recruiter about what you need, and don't be afraid to ask
+								questions. It’s your business to know about the search methods, tools and
+							techniques your headhunter will be using on your behalf.</span></p>
+
+							<p class=MsoNormal style='line-height:normal;background:white;vertical-align:
+							baseline'><span >At
+							the end of the day, isn’t having talented staff worth it?&nbsp;</span></p>
+
+							<p class=MsoNormal>&nbsp;</p></p> -->
+							<!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+						</div>
+					</div>
+					<div class="card bg-info">
+						<img class="card-img-top rounded-circle serviceimg" src="./assets/img/emp16.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h3 class="card-title">Get Hired</h3>
+							<!-- <p class="card-text">Designed for collaboration
+								Manage access for users with recruiter and super admin accounts
+								Share internal notes and assign task and interviews to colleagues
+								“No signup” access for interviewers to prepare and provide feedback on candidates
+								Receive email notifications to stay on track
+							Recruiting productivity reports to identify bottlenecks</p> -->
+							<!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div class="container-fluid bg-info mainabout">
+		<div class="row">
+			<div class="col-sm bg-info">
+				<div class="about text-center mt-5">
+					<h4 class="about2">About</h4>
+					<div class="mission mt-5">
+						<h4 class=""> Our Mission </h4> 
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
+					</div>
+
+					<div class="motto mt-5"> 
+						<h4 class="about2">Our Motto</h4>	
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
+					</div>
+
+					<div class="story mt-5">
+						<h4 class="about2">Our Story</h4>	
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
+
+						<!-- <p>I experience the hardship of being a young professional looking for a job and being a young professional looking for a candidate. I know how hard and difficult it is.</p> 
+							<p>I think that building this site will bridge the gap between the two and hope this will lessen the unemployment rate of the country.</p> -->
+						</div> 	
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="container-fluid bg-primary mainfooter">
+			<div class="row">
+				<div class="col-sm">
+					<img class="imgfooter" src="assets/img/logo/gethired.png" alt="logofooter">
+					<h6 class="footer1 text-light"> About GetHired
+						<ul>
+							<li><a class="text-light" href="#">Home</a></li>
+							<li><a class="text-light" href="#">The Company</a></li>
+							<li><a class="text-light" href="#">Careers</a></li>
+							<li><a class="text-light" href="#">Contact Us</a></li>
+						</ul>
+						<div class="iconfooter">
+							<ul>
+								<li><a class="text-light" href="#"><i class="far fa-envelope-open"></i></li></a>
+								<li><a class="text-light" href="#"><i class="fab fa-facebook-f"></i></li></a>
+								<li><a class="text-light" href="#"><i class="fab fa-twitter"></i></li></a>
+								<li><a class="text-light" href="#"><i class="fab fa-linkedin-in"></i></li></a>
+							</ul>
+						</div>
+					</h6>
+				</div>
+				<div class="col-sm">
+					<h6 class="footer2 text-light"> JOBSEEKERS
+						<ul>
+							<li><a class="text-light" href="#">Job Board</a></li>
+							<li><a class="text-light" href="#">Career Advice</a></li>
+							<li><a class="text-light" href="#">Job seekers guide</a></li>
+						</ul>
+					</h6>
+				</div>
+				<div class="col-sm">
+					<h6 class="footer3 text-light"> EMPLOYERS
+						<ul>
+							<li><a class="text-light" href="#">Post a Job Ad</a></li>
+							<li><a class="text-light" href="#">Search for Resumes</a></li>
+							<li><a class="text-light" href="#">Pricing</a></li>
+						</ul>
+					</h6>
+				</div>
+			</div>
+		</div>
+		<footer class="container-fluid bg-primary text-light">
+			<div class="row">
+				<div class="col-sm-12 text-center">	
+					<p>Copyright&copy; 2018 by GetHired</p>
+				</div>
+			</div>		
+		</footer>
+
+		<!-- Import Bootstrap scirpts -->
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>	
+
+		<!-- Import custom script -->
+		<script src="./assets/js/script.js"></script>
+
+		<!-- The Modal -->
+
+		<div class="modal fade" id="myModal2">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<!-- Modal Header -->
+					<div class="modal-header">
+						<h4 class="modal-title">Employer Login</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+
+					<!-- Modal body -->
+					<div class="modal-body">
+						<form action="name="frmLogin" id="frmLogin">
+							<div class="form-group" id="head-login">
+								<input type="text" name="login_id" class="form-control" placeholder="Email or ID" id="login-email" maxlength="100">
+								<span class="help-block hide" id="login-id-error">Please provide your login ID</span>
+							</div>
+							<div class="clearfix"></div>
+							<div class="form-group" id="head-password">
+								<input type="password" name="password" class="form-control" id="login-password" placeholder="Password" autocomplete="off">
+								<span class="help-block hide" id="login-pass-error">Please provide your password</span>
+							</div>
+							<div class="clearfix"></div>
+							<div class="form-group">
+								<span><input class="place-holder" type="checkbox" name="remember" checked="" id="remember" value="on">Remember me &nbsp; </span>
+								<span class="pull-right login-btn-realign" id="remember-me"><a class="forgot-link place-holder pull-right" href="#" id="forgot-password-link">Forgot?</a></span>
+								<button class="btn btn-primary btn-block" type="submit" id="login_btn" name="btnSignIn"><strong>Log In</strong></button>
+								<div class="col-xs-12 text-center link-signup" id="signup_now">New User?&nbsp;<a class="link-align link-drop sign-up-drop" id="signup_btn" href="#" >Sign up! It's FREE</a></div>
+								<h6 class="text-muted text-center mt-3" id="text_tou">Terms of Use</a> and <a id="pp_url" href="#" target="_blank">Privacy Policy</a>.</h6>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>	
+		</div>		
+	</div>	
+
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,162 @@
+@media only screen 
+	and (max-width: 961px)
+	and (min-width: 401px) {
+/*
+ *
+ * CSS Reset
+ *
+ */
+ * {
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+
+/*
+ *
+ * General Rules
+ *
+ */
+ 
+body {
+ 	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*Navbar*/
+
+
+ img.card-img {
+ 	height: 47px;
+ 	width: 149px;
+ }
+
+ .card-img-overlay{
+ 	margin-top: 25%;
+ }
+
+ .input-group {
+ 	min-width: 100%;
+ 	min-height: 100%;
+ 	padding-right: 70%;
+ 	text-align: center;
+ }
+
+ h5.card-title{
+ 	text-align: center;
+ }
+
+ p.card-text{
+ 	text-align: justify;
+ }
+ div.homePg{
+ 	background-image: url("../img/emp15.jpg");
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	height: 115vh ;
+ 	width: 100vw;
+
+ }
+
+ div.noLeft{
+ 	padding-left: 0px;
+ 	/*padding-right: 0px;*/
+ }
+ div.realCenter{
+ 	top: 30%;
+ 	margin: auto;
+ 	width: 50%;
+ 	padding: 10px;
+ 	text-align: center;
+ }
+
+img.imgfooter {
+	height:  50px;
+	width:  50px;
+	margin-top: 15px;
+	margin-left: 30%; 
+} 
+
+img.servicelogoimg {
+	height: 30%;
+	margin-top: 10%;
+	margin-left: 80%;
+}	
+
+h2.service1 {
+	margin-top: 22%;
+	text-align: center;
+	margin-right:  -20%; 
+}
+
+div.card-deck {
+	margin-top: -20%;
+}
+
+h6.footer1{
+	margin-left: 30%;
+	letter-spacing: 1px;
+	margin-top: 14%;
+}
+
+h6.footer1 > ul >li {
+	list-style: none;
+	margin-bottom: 1%;
+}
+
+h6.footer2{
+	margin-top: 10%;
+	margin-left: 30%;
+	letter-spacing: 2px;
+
+}
+
+h6.footer2 > ul > li{
+	list-style: none;
+}
+
+h6.footer3 > ul > li{
+	list-style: none;
+}
+
+h6.footer3 {
+	margin-top: 10%;
+	margin-left: 30%; 
+	margin-bottom: 20%;
+	letter-spacing: 2px;
+}
+
+div.iconfooter > ul > li{
+	height: 50%;
+	display: inline-block;
+	list-style: none;
+	margin-right: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.clear:after {
+ 	content: "";
+ 	display: block;
+ 	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
