@@ -28,7 +28,7 @@
 
 	<!-- Nav Bar -->
 
-	<nav class="navbar navbar-light bg-primary fixed-top mob-not-fixed">
+	<!-- <nav class="navbar navbar-light bg-primary fixed-top mob-not-fixed">
 		<a class="navbar-brand text-light mobOrient"><img class="card-img" src="assets/img/logo/gethired-full.png"></a>
 		<ul class="nav justify-content-end">
 			<li class="nav-item">
@@ -38,15 +38,92 @@
 				<a class="nav-link text-light font-weight-bold" href="employer.html">Employer</a>
 			</li>		
 		</ul>
-	</nav>
+	</nav> -->
+
+	<!-- Upload Photo and Confirm Email-->
+
+	<div class="container-fluid">
+		<div class="row">
+		<form class="form form-vertical" action="/avatar_upload.php" method="post" enctype="multipart/form-data">
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<div class="kv-avatar">
+						<div class="file-loading">
+							<input id="avatar-1" name="avatar-1" type="file" required>
+						</div>
+					</div>
+					<div class="kv-avatar-hint"><small>Select file < 1500 KB</small></div>
+				</div>
+				<div class="col-sm-8">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label for="email">Email Address<span class="kv-reqd">*</span></label>
+								<input type="email" class="form-control" name="email" required>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label for="pwd">Password<span class="kv-reqd">*</span></label>
+								<input type="password" class="form-control" name="pwd" required>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label for="fname">First Name</label>
+								<input type="text" class="form-control" name="fname" required>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label for="lname">Last Name</label>
+								<input type="text" class="form-control" name="lname" required>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<hr>
+						<div class="text-right"> 
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<div id="kv-avatar-errors-1" class="center-block" style="width:800px;display:none"></div>
+	</div>
+	</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	<!-- Registration Form Personal Information-->
 
-<div class="container-fluid">
-	<div class="row">
-		<div class="card main">
-			<div class="card-header"><h3>Personal Information</h3></div>
-			<div class="card-body">
+	<div class="container-fluid">
+		<div>
+			<div class="card main">
+				<div class="card-header"><h3>Personal Information</h3></div>
+				<div class="card-body">
 					<div class="form-row">
 						<div class="form-group col-md-4 mt-2">
 							<label for="FName">First Name</label>
@@ -153,17 +230,18 @@
 				<ul>
 					<li>
 						<a href="#"><i class="far fa-edit"></i>
-					</li></a>
-					<li><a href="#"><i class="far fa-save"></i>
-					</li></a>
-					<li><a href="#"><i class="fas fa-plus"></i>
-					</li></a>
-					<li><a href="#"><i class="fas fa-trash"></i>
-					</li></a>
-				</ul>
+						</li></a>
+						<li><a href="#"><i class="far fa-save"></i>
+						</li></a>
+						<li><a href="#"><i class="fas fa-plus"></i>
+						</li></a>
+						<li><a href="#"><i class="fas fa-trash"></i>
+						</li></a>
+					</ul>
+				</div>	
 			</div>	
 		</div>	
-	</div>	
+	</div>
 </div>
 
 	<div class="container-fluid">
@@ -422,14 +500,12 @@
 		</div>	
 
 		<div class="container-fluid">
-			<div class="row">
+			<div>
 				<div class="card main">
 					<div class="card-header"><h3>References</h3></div>
-					<div class="card col-md-4 ">
 						<div class="card-body">
 							Please list at least three (3) professional references: 
-						</div>
-					</div>		
+						</div>		
 					<div class="card-body">
 						<div class="form-row">
 							<div class="form-group col-md-6">
@@ -452,6 +528,10 @@
 								<label for="CoNum">Contact Number</label>
 								<input type="text" class="form-control" id="CoNum" placeholder="Contact Number">
 							</div>
+							<div class="form-group col-md-4">
+								<label for="CoNum2">Contact Number</label>
+								<input type="text" class="form-control" id="CoNum2" placeholder="Mobile Number">
+							</div>
 						</div>
 
 						<div class="form-row">
@@ -475,6 +555,10 @@
 								<label for="CoNum">Contact Number</label>
 								<input type="text" class="form-control" id="CoNum" placeholder="Contact Number">
 							</div>
+							<div class="form-group col-md-4">
+								<label for="CoNum2">Contact Number</label>
+								<input type="text" class="form-control" id="CoNum2" placeholder="Mobile Number">
+							</div>
 						</div>
 
 						<div class="form-row">
@@ -495,8 +579,12 @@
 								<input type="text" class="form-control" id="CoRel" placeholder="Relationship">
 							</div>
 							<div class="form-group col-md-4">
-								<label for="CoNum">Contact Number</label>
-								<input type="text" class="form-control" id="CoNum" placeholder="Contact Number">
+								<label for="CoNum1">Contact Number</label>
+								<input type="text" class="form-control" id="CoNum1" placeholder="Phone Number">
+							</div>
+							<div class="form-group col-md-4">
+								<label for="CoNum2">Contact Number</label>
+								<input type="text" class="form-control" id="CoNum2" placeholder="Mobile Number">
 							</div>
 						</div>
 						<div class="minifooter">
