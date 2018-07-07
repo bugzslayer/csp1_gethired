@@ -172,3 +172,14 @@ div.lowerfooter{
 	/*margin-top: 10%;*/
 }
 
+.wrapper{
+	display:none;
+}
+div.Adjust2Sidebar{
+	margin-left: 0px;
+}
+
+.full-mob-scr{
+	width: 105%
+}
+}
