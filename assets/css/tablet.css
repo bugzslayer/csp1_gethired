@@ -1,6 +1,6 @@
 @media only screen 
-	and (max-width: 961px)
-	and (min-width: 401px) {
+and (max-width: 961px)
+and (min-width: 401px) {
 /*
  *
  * CSS Reset
@@ -18,11 +18,11 @@
  *
  */
  
-body {
+ body {
  	font-family: 'PT Sans Narrow', sans-serif;
-}
+ }
 
-/*Navbar*/
+ /*Navbar*/
 
 
  img.card-img {
@@ -70,118 +70,209 @@ body {
  	text-align: center;
  }
 
-img.imgfooter {
-	height:  50px;
-	width:  50px;
-	margin-top: 15px;
-	margin-left: 30%; 
-} 
+ img.imgfooter {
+ 	height:  50px;
+ 	width:  50px;
+ 	margin-top: 15px;
+ 	margin-left: 30%; 
+ } 
 
-img.servicelogoimg {
-	height: 30%;
-	margin-top: 10%;
-	margin-left: 80%;
-}	
+ img.servicelogoimg {
+ 	height: 30%;
+ 	margin-top: 10%;
+ 	margin-left: 80%;
+ }	
 
-h2.service1 {
-	margin-top: 22%;
-	text-align: center;
-	margin-right:  -20%; 
-}
+ h2.service1 {
+ 	margin-top: 22%;
+ 	text-align: center;
+ 	margin-right:  -20%; 
+ }
 
-div.card-deck {
-	margin-top: -20%;
-}
+ div.card-deck {
+ 	margin-top: -20%;
+ }
 
-h6.footer1{
-	margin-left: 30%;
-	letter-spacing: 1px;
-	margin-top: 14%;
-}
+ h6.footer1{
+ 	margin-left: 30%;
+ 	letter-spacing: 1px;
+ 	margin-top: 14%;
+ }
 
-h6.footer1 > ul >li {
-	list-style: none;
-	margin-bottom: 1%;
-}
+ h6.footer1 > ul >li {
+ 	list-style: none;
+ 	margin-bottom: 1%;
+ }
 
-h6.footer2{
-	margin-top: 10%;
-	margin-left: 30%;
-	letter-spacing: 2px;
+ h6.footer2{
+ 	margin-top: 10%;
+ 	margin-left: 30%;
+ 	letter-spacing: 2px;
 
-}
+ }
 
-h6.footer2 > ul > li{
-	list-style: none;
-}
+ h6.footer2 > ul > li{
+ 	list-style: none;
+ }
 
-h6.footer3 > ul > li{
-	list-style: none;
-}
+ h6.footer3 > ul > li{
+ 	list-style: none;
+ }
 
-h6.footer3 {
-	margin-top: 10%;
-	margin-left: 30%; 
-	margin-bottom: 20%;
-	letter-spacing: 2px;
-}
+ h6.footer3 {
+ 	margin-top: 10%;
+ 	margin-left: 30%; 
+ 	margin-bottom: 20%;
+ 	letter-spacing: 2px;
+ }
 
-div.iconfooter > ul > li{
-	height: 50%;
-	display: inline-block;
-	list-style: none;
-	margin-right: 5%;
-}
-
-
-
-/*Jobseeke Registration html*/
-
-div.form{
-	margin-top: 95px;
-}
+ div.iconfooter > ul > li{
+ 	height: 50%;
+ 	display: inline-block;
+ 	list-style: none;
+ 	margin-right: 5%;
+ }
 
 
-div.main{
-	margin-top: 80px;
-	
-}
 
-div.edmain{
-	margin-top: 10px;
-}
+ /*Jobseeke Registration html*/
 
-/*Jobseeke Upload Photo*/
-
-.ma-reqd {
-    color: red;
-}
-
-div.minifooter{
-	text-align: center;
-	letter-spacing: 5px;
-	margin-top: 3%;
-}
-
-div.minifooter > ul > li{
-	list-style: none;
-	display: inline-block;
-}
+ div.form{
+ 	margin-top: 95px;
+ }
 
 
-/*Employer*/
+ div.main{
+ 	margin-top: 80px;
+ 	
+ }
 
-div#carouselExampleIndicators{
-	width: 105%;
-	height: 100%;
-}
+ div.edmain{
+ 	margin-top: 10px;
+ }
+
+ /*Jobseeke Upload Photo*/
+
+ .ma-reqd {
+ 	color: red;
+ }
+
+ div.minifooter{
+ 	text-align: center;
+ 	letter-spacing: 5px;
+ 	margin-top: 3%;
+ }
+
+ div.minifooter > ul > li{
+ 	list-style: none;
+ 	display: inline-block;
+ }
 
 
-.clear:after {
+ /*Employer*/
+
+ div#carouselExampleIndicators{
+ 	width: 105%;
+ 	height: 100%;
+ }
+
+
+ .clear:after {
  	content: "";
  	display: block;
  	clear: both;
-}
+ }
+ .HeadSpace{
+ 	margin-top:67px;
+ }
+
+ /*Side bar css*/
+ .wrapper {
+ 	padding-left: 0;
+ 	-webkit-transition: all 0.5s ease;
+ 	-moz-transition: all 0.5s ease;
+ 	-o-transition: all 0.5s ease;
+ 	transition: all 0.5s ease;
+ }
+
+
+ .sidebar-wrapper {
+ 	z-index: 1000;
+ 	position: fixed;
+ 	left: 125px;
+ 	width: 125px;
+ 	height: 100%;
+ 	margin-left: -125px;
+ 	overflow-y: auto;
+ 	background: #CCCCCC;
+ 	-webkit-transition: all 0.5s ease;
+ 	-moz-transition: all 0.5s ease;
+ 	-o-transition: all 0.5s ease;
+ 	transition: all 0.5s ease;
+ }
+
+ .sidebar-nav {
+ 	position: absolute;
+ 	top: 0;
+ 	width: 125px;
+ 	margin: 0;
+ 	padding: 0;
+ 	list-style: none;
+ }
+
+ .sidebar-nav li {
+ 	text-indent: 20px;
+ 	line-height: 40px;
+ }
+
+ .sidebar-nav li a {
+ 	display: block;
+ 	text-decoration: none;
+ 	color: #000;
+ }
+
+ .sidebar-nav li a:hover {
+ 	text-decoration: none;
+ 	color: #fff;
+ 	background: rgba(255, 255, 255, 0.2);
+ }
+
+ .sidebar-nav li a:active, .sidebar-nav li a:focus {
+ 	text-decoration: none;
+ }
+
+ .sidebar-nav>.sidebar-brand {
+ 	height: 65px;
+ 	font-size: 18px;
+ 	line-height: 60px;
+ }
+
+/*.sidebar-nav>.sidebar-brand a {
+  color: #999999;
+  }*/
+
+  .sidebar-nav>.sidebar-brand a:hover {
+  	color: black;
+  	background: none;
+  }
+  div.Adjust2Sidebar{
+  	margin-left: 125px;
+  }
+  div.img-about{
+  	background-image: url("../img/aboutus-2.jpg");
+  	background-size: contain;
+  	background-repeat: no-repeat;
+  }
+  div.img-mission{
+  	background-image: url("../img/mission.png");
+  	background-size: contain;
+  	background-repeat: no-repeat;
+  }
+  div.img-vision{
+  	background-image: url("../img/vision-2.jpg");
+  	background-size: contain;
+  	background-repeat: no-repeat;
+  }
 
 }
 
