@@ -235,3 +235,15 @@ and (max-width: 401px){
  }
 
 }
+
+.wrapper{
+	display:none;
+}
+div.Adjust2Sidebar{
+	margin-left: 0px;
+}
+
+.full-mob-scr{
+	width: 105%
+}
+}
