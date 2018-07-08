@@ -135,13 +135,46 @@ div.iconfooter > ul > li{
 
 
 
+/*Jobseeke Registration html*/
+
+div.form{
+	margin-top: 95px;
+}
 
 
+div.main{
+	margin-top: 80px;
+	
+}
+
+div.edmain{
+	margin-top: 10px;
+}
+
+/*Jobseeke Upload Photo*/
+
+.ma-reqd {
+    color: red;
+}
+
+div.minifooter{
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 3%;
+}
+
+div.minifooter > ul > li{
+	list-style: none;
+	display: inline-block;
+}
 
 
+/*Employer*/
 
-
-
+div#carouselExampleIndicators{
+	width: 105%;
+	height: 100%;
+}
 
 
 .clear:after {
@@ -150,7 +183,7 @@ div.iconfooter > ul > li{
  	clear: both;
 }
 
-
+}
 
 
 
